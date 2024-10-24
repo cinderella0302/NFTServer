@@ -1,0 +1,86 @@
+[debug] [2023-06-20T09:03:59.780Z] ----------------------------------------------------------------------
+[debug] [2023-06-20T09:03:59.782Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sheriff\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-20T09:03:59.782Z] CLI Version:   12.4.0
+[debug] [2023-06-20T09:03:59.783Z] Platform:      win32
+[debug] [2023-06-20T09:03:59.783Z] Node Version:  v16.13.1
+[debug] [2023-06-20T09:03:59.783Z] Time:          Tue Jun 20 2023 17:03:59 GMT+0800 (China Standard Time)
+[debug] [2023-06-20T09:03:59.784Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-20T09:03:59.851Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-20T09:03:59.852Z] > authorizing via signed-in user (sheriff0613@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Projects\NFTBet_server
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-20T09:04:08.414Z] Using project from CLI flag: betfi-lylerowe
+[debug] [2023-06-20T09:04:08.417Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/betfi-lylerowe [none]
+[debug] [2023-06-20T09:04:12.712Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/betfi-lylerowe 403
+[debug] [2023-06-20T09:04:12.713Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/betfi-lylerowe {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-06-20T09:04:12.713Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-06-20T09:04:16.182Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Sheriff\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Sheriff\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project betfi-lylerowe. Please make sure the project exists and your account has permission to access it.
+[debug] [2023-06-20T09:04:27.268Z] ----------------------------------------------------------------------
+[debug] [2023-06-20T09:04:27.270Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sheriff\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-06-20T09:04:27.271Z] CLI Version:   12.4.0
+[debug] [2023-06-20T09:04:27.271Z] Platform:      win32
+[debug] [2023-06-20T09:04:27.271Z] Node Version:  v16.13.1
+[debug] [2023-06-20T09:04:27.272Z] Time:          Tue Jun 20 2023 17:04:27 GMT+0800 (China Standard Time)
+[debug] [2023-06-20T09:04:27.272Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-20T09:04:27.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-20T09:04:27.339Z] > authorizing via signed-in user (sheriff0613@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Projects\NFTBet_server
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-06-20T09:04:29.919Z] Using project from CLI flag: betfi-lylerowe
+[debug] [2023-06-20T09:04:29.921Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/betfi-lylerowe [none]
+[debug] [2023-06-20T09:04:32.918Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/betfi-lylerowe 403
+[debug] [2023-06-20T09:04:32.918Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/betfi-lylerowe {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-06-20T09:04:32.918Z] HTTP Error: 403, The caller does not have permission
+[debug] [2023-06-20T09:04:36.450Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\Sheriff\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Sheriff\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project betfi-lylerowe. Please make sure the project exists and your account has permission to access it.

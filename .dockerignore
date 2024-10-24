@@ -1,0 +1,13 @@
+node_modules
+npm-debug.log
+.vscode
+*.log
+.env
+.git
+.gitignore
+.vscode
+Dockerfile*
+docker-compose*
+README.md
+example.env
+.firebaserc
